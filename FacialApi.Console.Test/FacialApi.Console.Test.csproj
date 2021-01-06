@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject>FacialApi.Console.Test.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="oscars-2017.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="oscars-2017.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FacialDetector.Utility\FacialDetector.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

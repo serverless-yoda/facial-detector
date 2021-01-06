@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BCFDC418-502F-4E81-A2B6-6CC271C73981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacialApi", "FacialApi\FacialApi.csproj", "{F33257CC-FB60-4EE5-BA00-F913ADEDA00C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacialDetector.Utility", "FacialDetector.Utility\FacialDetector.Utility.csproj", "{AC9098EC-790C-4441-AA46-30193E5D0701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacialApi.Console.Test", "FacialApi.Console.Test\FacialApi.Console.Test.csproj", "{5B85E650-2F78-4D53-851C-DD1D73AA96C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F33257CC-FB60-4EE5-BA00-F913ADEDA00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33257CC-FB60-4EE5-BA00-F913ADEDA00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33257CC-FB60-4EE5-BA00-F913ADEDA00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33257CC-FB60-4EE5-BA00-F913ADEDA00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9098EC-790C-4441-AA46-30193E5D0701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9098EC-790C-4441-AA46-30193E5D0701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9098EC-790C-4441-AA46-30193E5D0701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9098EC-790C-4441-AA46-30193E5D0701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B85E650-2F78-4D53-851C-DD1D73AA96C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B85E650-2F78-4D53-851C-DD1D73AA96C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B85E650-2F78-4D53-851C-DD1D73AA96C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B85E650-2F78-4D53-851C-DD1D73AA96C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F33257CC-FB60-4EE5-BA00-F913ADEDA00C} = {BCFDC418-502F-4E81-A2B6-6CC271C73981}
+		{AC9098EC-790C-4441-AA46-30193E5D0701} = {BCFDC418-502F-4E81-A2B6-6CC271C73981}
+		{5B85E650-2F78-4D53-851C-DD1D73AA96C7} = {BCFDC418-502F-4E81-A2B6-6CC271C73981}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {547ACB75-29C9-4CC7-A367-2FEA35609B46}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenCvSharp4" Version="4.5.1.20201229" />
+    <PackageReference Include="OpenCvSharp4.Windows" Version="4.5.1.20201229" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CascadeFile\" />
+  </ItemGroup>
+
+</Project>
